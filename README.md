@@ -1,4 +1,4 @@
-# employee_maangementSQL
+# employee_mangementSQL
 An SQL-based database to manage employee records, salaries, attendance, and payrolls efficiently.
 
 📌 Overview
