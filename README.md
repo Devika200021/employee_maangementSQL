@@ -26,14 +26,25 @@ The project consists of the following tables:
 
 
 📜 How to Run the Project?
-1. Clone the repository:  
+1.Prerequisites
+Ensure you have:
+MySQL or any SQL-compatible database installed (e.g., PostgreSQL, SQL Server).
+A SQL client like MySQL Workbench
+2. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/EmployeeManagementSQL.git
-   cd EmployeeManagementSQL
+   git clone https://github.com/yourusername/employee_managementSQL.git
+   cd employee_managementSQL
    ```
-2. Open the SQL script (`EmployeeManagement.sql`) in your SQL database tool (MySQL Workbench).  
-3. Run the script to create tables and insert sample data.  
-4. Execute SQL queries to interact with the database.  
+3. Open the SQL script (`EmployeeManagement.sql`) in your SQL database tool (MySQL Workbench).  
+4. Run the script to create tables and insert sample data.  
+5. Execute SQL queries to interact with the database.
+6. Verify Database
+Use:
+```bash
+SHOW TABLES;
+SELECT * FROM employees;
+```
+This ensures that the tables and data are correctly loaded.
 
 📜 License:
 This project is for educational purposes. Unauthorized usage is *not permitted* without permission.  
